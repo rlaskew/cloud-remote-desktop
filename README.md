@@ -12,10 +12,10 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-2-install-gui/
 https://askubuntu.com/questions/328240/assign-vnc-password-using-script
 
 # future get started script commands
-yum update -y
-amazon-linux-extras install mate-desktop1.x
-bash -c 'echo PREFERRED=/usr/bin/mate-session > /etc/sysconfig/desktop'
-yum install tigervnc-server -y 
-amazon-linux-extras install epel
-yum install chromium -y
+- yum update -y
+- amazon-linux-extras install mate-desktop1.x
+- bash -c 'echo PREFERRED=/usr/bin/mate-session > /etc/sysconfig/desktop'
+- yum install tigervnc-server -y 
+- amazon-linux-extras install epel
+- yum install chromium -y
 
